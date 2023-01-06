@@ -29,14 +29,12 @@ h1 {
 .card {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    padding: 30px;  
-    gap: 10px; 
+    padding: 20px;  
 }
 
 .card-description {
     height: 80%;
     width: 90%;
-    margin: 20px ;
     padding: 20px;
     border-radius: 5%;
     border: 5px solid rgb(250, 241, 241);
@@ -63,7 +61,8 @@ ul {
 body {
     background-image: url(img/estrellasverdes.gif);
     background-position: center;
-    background-size: contain;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .testpersonaje {
@@ -106,13 +105,11 @@ footer {
 }
 
 h3, h4 {
-    font-family: 'Bangers', cursive;
-    font-size: xx-large;
-    -webkit-text-stroke: 0.2px black;
-    color: rgba(227, 238, 227, 0.897);
+    font-family: 'Orbitron', sans-serif;
+    color: black;
     text-align: center;
     padding: 10px;
-}
+    letter-spacing: 5px;}
 
 @media (max-width: 800px) {
     .card {
