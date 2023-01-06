@@ -27,6 +27,7 @@ h1 {
 
 /*container HTML*/
 .card {
+    margin-top: 10px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     padding: 20px;  
@@ -35,6 +36,7 @@ h1 {
 .card-description {
     height: 80%;
     width: 90%;
+    margin:10% auto;
     padding: 20px;
     border-radius: 5%;
     border: 5px solid rgb(250, 241, 241);
@@ -61,8 +63,7 @@ ul {
 body {
     background-image: url(img/estrellasverdes.gif);
     background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
+    background-size: contain;
 }
 
 .testpersonaje {
@@ -124,6 +125,11 @@ h3, h4 {
         background-size: cover;
     }
 
+    body {
+        background-size: cover;
+        background-repeat: no-repeat ;
+    }
+
 }
 
 @media (max-width: 480px) {
@@ -136,6 +142,11 @@ h3, h4 {
         background-image: url(img/vortice.jpg);
         background-position: center;
         background-size: cover;
+    }
+
+    body {
+    background-size: cover;
+    background-repeat: no-repeat ;
     }
 
 }
